@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaOpencart } from "react-icons/fa";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -7,7 +8,9 @@ const Header = () => {
         <Link className="navbar-brand" href="#">
           Fake-Store
         </Link>
-        <div></div>
+        <div>
+          <FaOpencart /> {0}
+        </div>
       </div>
     </nav>
   );
